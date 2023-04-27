@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+*{
+    font-family: 'Poppins', sans-serif;
+}
 :root {
     --primary: #0463FA;
     --light: #EFF5FF;
@@ -82,7 +85,7 @@
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -493,7 +496,7 @@
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     margin-right: 10px;
 }
